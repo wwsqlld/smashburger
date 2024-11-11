@@ -9,7 +9,7 @@ export function Footer() {
                 <div className="info-log-container">
                         <Image 
                         alt="short logo"
-                        src='/shortlogo.jpg'
+                        src='/shortlogo.webp'
                         width={160}
                         height={62.8}
                         draggable="false"

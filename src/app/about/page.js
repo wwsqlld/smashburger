@@ -5,7 +5,7 @@ export default function About() {
     <div className="about-part">
       <Image
       alt="short logo"
-      src='/wg.jpg'
+      src='/wg.webp'
       priority
       width={412}
       height={582}

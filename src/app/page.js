@@ -5,7 +5,7 @@ export default function Home() {
     <div className="home-main-part">
       <div className="video-main">
         <video autoPlay loop muted playsInline className="video">
-          <source src="/videoback1.mp4" type="video/mp4" />
+          <source src="/videoback2.webm" type="video/webm" />
         </video>
         <div className="overlay" />
       </div>
@@ -15,6 +15,7 @@ export default function Home() {
           <Image alt="uber"
                   src='/shortlogo2.png'
                   width={277}
+                  priority
                   height={90}
                   draggable="false"
                   quality={100}
