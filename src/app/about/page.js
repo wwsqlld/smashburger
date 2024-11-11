@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <>
     <div className="about-part">
       <Image
       alt="short logo"
@@ -15,6 +14,5 @@ export default function About() {
       unoptimized
       />
     </div>
-    </>
   )
 }

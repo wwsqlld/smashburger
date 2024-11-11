@@ -5,7 +5,7 @@ export default function Home() {
     <div className="home-main-part">
       <div className="video-main">
         <video autoPlay loop muted playsInline className="video">
-          <source src="/videoback.mp4" type="video/mp4" />
+          <source src="/videoback1.mp4" type="video/mp4" />
         </video>
         <div className="overlay" />
       </div>
@@ -14,7 +14,6 @@ export default function Home() {
         <div className="over-cont-img">
           <Image alt="uber"
                   src='/shortlogo2.png'
-                  priority
                   width={277}
                   height={90}
                   draggable="false"

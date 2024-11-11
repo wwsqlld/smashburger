@@ -10,7 +10,6 @@ export function Footer() {
                         <Image 
                         alt="short logo"
                         src='/shortlogo.jpg'
-                        priority
                         width={160}
                         height={62.8}
                         draggable="false"
@@ -33,13 +32,11 @@ export function Footer() {
                     <div className="info-time">
                         <p>
                            Öffnungszeiten
-                            <br>
-                            </br>
+                            <br/>
                             Mi - So  16:00 - 21:30  
                         </p>
                     </div>
-                </div>
-                
+                </div>  
             </div>
             <div className="uk-container">
                 <div className="info-uk-links">

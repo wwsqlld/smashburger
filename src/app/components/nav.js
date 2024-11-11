@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { NavButton } from "./navbutton";
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { BsList } from "react-icons/bs";
 import { MdOutlineClose } from "react-icons/md";
@@ -13,6 +13,8 @@ import Link from "next/link";
 export function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false);
+
+    const router = useRouter()
 
 
     const isHomePage = usePathname() === "/"
@@ -70,7 +72,7 @@ export function Navbar() {
       </AnimatePresence>
 
 
-            <div className='logo'>
+            <div className='logo' onClick={() => router.push('/')}>
                 <Image
                   alt="logo"
                   src='/logo4.png'
@@ -80,6 +82,7 @@ export function Navbar() {
                   draggable="false"
                   quality={100}
                   unoptimized
+                  
                 />
             </div>
             <div className="nav-container">
