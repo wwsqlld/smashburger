@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function About() {
+const About = () => {
   return (
     <div className="about-part">
       <Image
@@ -16,3 +16,5 @@ export default function About() {
     </div>
   )
 }
+
+export default About
