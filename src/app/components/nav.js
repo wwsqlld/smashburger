@@ -23,16 +23,15 @@ export function Navbar() {
     const [menuVars, setMenuVars] = useState({});
   
     useEffect(() => {
-      // Устанавливаем значения `x`, когда доступен `window`
       setMenuVars({
-        initial: { x: window.innerWidth },
+        initial: { y: -window.innerHeight },
         animate: {
-          x: 0,
-          transition: { duration: 1.1 },
+          y: 0,
+          transition: { duration: 0.7 },
         },
         exit: {
-          x: window.innerWidth,
-          transition: { duration: 0.7 },
+          y: -window.innerHeight,
+          transition: { duration: 0.9 },
         },
       });
     }, []);
@@ -93,9 +92,9 @@ export function Navbar() {
 
 
             {!isOpen ? (
-                <BsList className='nav-list' size={40} onClick={() => handleClick()} /> 
+                <BsList className={isHomePage ? 'nav-list' : 'nav-list-black'} size={40} onClick={() => handleClick()} /> 
             ) : (
-                <MdOutlineClose className='nav-list' size={40} onClick={() => handleClick()}/>
+                <MdOutlineClose className={isHomePage ? 'nav-list' : 'nav-list-black'} size={40} onClick={() => handleClick()}/>
             )} 
 
         </div>
