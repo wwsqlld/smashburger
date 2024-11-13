@@ -2,7 +2,12 @@
 const Impressum = () => {
   return (
     <div className="impressum-part">
-      <p>Impressum</p>
+      <div className="impressum-text">
+        <p>Impressum
+        <br />
+        
+      </p>
+      </div>
     </div>
   )
 }

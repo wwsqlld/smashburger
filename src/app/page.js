@@ -2,6 +2,7 @@ import Image from "next/image";
 
 const Home = () => {
   return (
+    <>
     <div className="home-main-part">
       <div className="video-main">
         <video autoPlay loop muted playsInline className="video">
@@ -22,12 +23,24 @@ const Home = () => {
                   unoptimized
                   />
         </div>
-          <a href="https://www.ubereats.com/de-en/store/thommys-smash-burger/T7uygVu4XjK1YmAoQjHMXQ?diningMode=DELIVERY&fbclid=PAZXh0bgNhZW0CMTEAAabRYNu4TdX6ulr4FHsOydWjYqqK_83TxQUtCw9MjeFwgjadps3fUpeSdrU_aem_xBe0TAqtL9_n0Z1ouGT5fQ" style={{textDecoration: 'none'}}>
+          <a href="https://www.ubereats.com/de-en/store/thommys-smash-burger/T7uygVu4XjK1YmAoQjHMXQ?diningMode=DELIVERY&fbclid=PAZXh0bgNhZW0CMTEAAabRYNu4TdX6ulr4FHsOydWjYqqK_83TxQUtCw9MjeFwgjadps3fUpeSdrU_aem_xBe0TAqtL9_n0Z1ouGT5fQ" style={{textDecoration: 'none'}} target="_blank">
             <div className="bestellung-button">Jetzt bestellen!</div>
           </a>
           <p className="bestellung-text">mit Uber Eats</p>
       </div>
     </div>
+    <div className="menu-part">
+        <p className="menu-text">Menü</p>
+        <Image alt="menu"
+                  src='/menu.webp'
+                  width={600}
+                  height={845}
+                  draggable="false"
+                  quality={100}
+                  unoptimized
+         />
+    </div>
+    </>
   );
 }
 
