@@ -38,14 +38,14 @@ p {
 }
 
 .app-navbar-home {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 106px;
   display: flex;
   justify-content: space-around;
   gap: 250px;
   align-items: center;
-  z-index: 30;
+  z-index: 134;
 }
 
 .logo {
