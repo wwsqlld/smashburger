@@ -166,7 +166,7 @@ p {
 }
 
 .bestellung-button {
-  width: 150px;
+  width: 160px;
   height: 50px;
   color: white;
   display: flex;
@@ -183,6 +183,7 @@ p {
 }
 
 .bestellung-text {
+  margin-top: 3px;
   font-size: 14px;
 }
 
@@ -200,8 +201,8 @@ p {
 }
 
 .menu-text {
-  font-size: 24px;
-  padding: 25px 0px 30px 0px;
+  font-size: 27px;
+  margin: 25px 0px 40px 0px;
 }
 
 
@@ -217,12 +218,12 @@ p {
 
 .about-part {
   min-width: 100vw;
-  height: calc(100vh - 116px);
+  min-height: calc(100vh - 116px);
+  height: fit-content;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 50px 0px;
 }
 
 
@@ -246,8 +247,12 @@ p {
 }
 
 .impressum-text {
-  width: 60%;
+  width: fit-content;
   height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 
@@ -261,12 +266,18 @@ p {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0px 20px 0px;  
+  padding: 20px 0px 40px 0px;  
 }
 
 .datenschutz-text {
-  width: 60%;
+  width: 90%;
+  max-width: 900px;
   height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -321,7 +332,7 @@ p {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding: 10px 0px 10px 0px;
+  padding: 40px 0px 10px 0px;
 
 }
 
@@ -488,6 +499,7 @@ p {
 
   .menu-text {
     font-size: 23px;
+    margin: 15px 0px 20px 0px;
   }
 
 
@@ -517,8 +529,8 @@ p {
 
 
   .about-part img {
-    max-width: 391px;
-    max-height: 552px;
+    max-width: 462px;
+    max-height: 652px;
   }
 
 
@@ -581,6 +593,12 @@ p {
 
 
 
+
+  .info-container {
+    padding: 20px 0px 10px 0px;
+  }
+
+
   .footer {
     height: 310px;
   }
@@ -626,8 +644,8 @@ p {
 
 
   .about-part img {
-    max-width: 351px;
-    max-height: 496px;
+    max-width: 392px;
+    max-height: 554px;
   }
 
 
@@ -687,6 +705,7 @@ p {
 
   .menu-text {
     font-size: 21px;
+    margin: 15px 0px 15px 0px;
   }
 
 
@@ -786,8 +805,7 @@ p {
   }
 
   .about-part {
-    justify-content: flex-start;
-    max-height: 700px;
+    padding: 15px 0px 10px 0px;
   }
   .about-part img {
     max-width: 316px;

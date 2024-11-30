@@ -7,8 +7,8 @@ const About = () => {
       alt="short logo"
       src='/wg.webp'
       priority
-      width={412}
-      height={582}
+      width={577}
+      height={815}
       draggable="false"
       quality={100}
       unoptimized
