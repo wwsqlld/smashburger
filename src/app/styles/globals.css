@@ -334,7 +334,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 40px 0px 10px 0px;
 
 }
@@ -363,6 +363,7 @@ p {
 
 .invite-text {
   font-size: 31px;
+  margin-bottom: 10px;
 }
 
 .info-location {
@@ -383,7 +384,7 @@ p {
 
 .info-time {
   width: 200px;
-  height: 90px;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -903,7 +904,12 @@ p {
   
   .info-time {
     width: 140px;
-    height: 30px;
+    height: fit-content;
+    
+  }
+
+  .info-time p {
+    text-align: center;
   }
 
   .info-location p {

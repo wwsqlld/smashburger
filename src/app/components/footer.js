@@ -33,7 +33,9 @@ export function Footer() {
                         <p>
                            Öffnungszeiten
                             <br/>
-                            Mi - So  16:00 - 21:30  
+                            Mi - So
+                            <br />
+                            16:00 - 21:30  
                         </p>
                     </div>
                 </div>  
