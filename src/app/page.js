@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MenuPart from "./components/MenuPart";
 
 const Home = () => {
   return (
@@ -29,7 +30,8 @@ const Home = () => {
           <p className="bestellung-text">mit Uber Eats</p>
       </div>
     </div>
-    <div className="menu-part">
+
+    {/* <div className="menu-part">
         <p className="menu-text">Menü</p>
         <Image alt="menu"
                   src='/menu.webp'
@@ -39,7 +41,9 @@ const Home = () => {
                   quality={100}
                   unoptimized
          />
-    </div>
+    </div> */}
+    <MenuPart />
+    <div className="line-menu"></div>
     </>
   );
 }

@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { NavButton } from "./navbutton";
+import { NavButton } from "./NavButton";
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { BsList } from "react-icons/bs";
