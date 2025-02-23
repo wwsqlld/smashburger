@@ -31,17 +31,6 @@ const Home = () => {
       </div>
     </div>
 
-    {/* <div className="menu-part">
-        <p className="menu-text">Menü</p>
-        <Image alt="menu"
-                  src='/menu.webp'
-                  width={600}
-                  height={845}
-                  draggable="false"
-                  quality={100}
-                  unoptimized
-         />
-    </div> */}
     <MenuPart />
     <div className="line-menu"></div>
     </>

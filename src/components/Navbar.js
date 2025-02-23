@@ -44,7 +44,7 @@ export function Navbar() {
 
 
     return (
-        <div className={isHomePage ? "app-navbar-home" : "app-navbar"}>
+        <div className="app-navbar-home">
 
         <AnimatePresence>
             {isOpen && (
@@ -92,9 +92,9 @@ export function Navbar() {
 
 
             {!isOpen ? (
-                <BsList className={isHomePage ? 'nav-list' : 'nav-list-black'} size={40} onClick={() => handleClick()} /> 
+                <BsList className={isHomePage ? 'nav-list' : 'nav-list-b'} size={40} onClick={() => handleClick()} /> 
             ) : (
-                <MdOutlineClose className={isHomePage ? 'nav-list' : 'nav-list-black'} size={40} onClick={() => handleClick()}/>
+                <MdOutlineClose className={isHomePage ? 'nav-list' : 'nav-list-b'} size={40} onClick={() => handleClick()}/>
             )} 
 
         </div>

@@ -8,6 +8,11 @@ p {
     height: 106px;
     gap: 250px;
     z-index: 134;
+    color: #202020;
+}
+
+.app-navbar {
+    color: #202020;
 }
 .nav-cont-adap,
 .overlay {
@@ -36,7 +41,6 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #fff;
 }
 .app-navbar-home {
     position: absolute;
@@ -44,6 +48,7 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+
 .logo,
 .nav-container {
     width: fit-content;
@@ -63,8 +68,7 @@ img {
     gap: 50px;
     z-index: 12;
 }
-.nav-btn,
-.nav-btn-black {
+.nav-btn {
     display: flex;
     justify-content: center;
     width: fit-content;
@@ -76,14 +80,16 @@ img {
     font-weight: 500;
     text-decoration: none;
 }
-.nav-btn {
+.nav-btn-white {
     align-items: center;
     color: #fff;
 }
+
 .nav-btn-black {
     align-items: center;
-    color: #000;
+    color: #202020;
 }
+
 .home-main-part,
 .video-main {
     justify-content: center;
@@ -145,7 +151,7 @@ img {
     text-decoration: none;
 }
 
-.about-part,
+
 .impressum-part {
     height: fit-content;
     display: flex;
@@ -376,7 +382,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 60px 0px;
+    padding: 20px 0px 160px 0px;
     gap: 20px;
 }
 
@@ -401,11 +407,13 @@ img {
     justify-content:flex-end ; 
 }
 
+
+
 .other-menu-main {
     width: 800px;
     height: fit-content;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -475,21 +483,132 @@ img {
 
 
 
-.about-part,
+
+
+
+
+
+
+
+    /* About  */
+
+
+    
+
+    .about-part {
+        position: relative;
+        top: 0px;
+        width: 100vw;
+        min-height: 100vh;
+        gap: 40px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        background-color:#b372d6;
+        padding-top: 126px;
+        
+    }
+    
+    .about-part::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 55vw; /* Белая область занимает больше половины экрана по ширине */
+        height: 100%; /* Заполняет всю высоту родителя */
+        background-color: #f1eee5; /* Цвет белой области */
+        z-index: 1;
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+        
+    }
+
+
+
+    .about-gastrowg-container {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+    }
+
+
+  
+
+    .about-gastrowg-image {
+        position: absolute;
+        top: 0px;
+        right: 18px;
+    }
+
+
+    .about-container-text {
+        z-index: 2;
+        width: 800px;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .about-image-container {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 2;
+    }
+
+    .about-image-main {
+        margin-left: 350px;
+    }
+
+    
+
+    .about-images-cont img{
+        z-index: 2;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+
+    .about-images-cont2 img{
+        z-index: 2;
+        position: absolute;
+        bottom: 60px;
+        right: 100px;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 .datenschutz-part,
 .impressum-part {
     min-height: calc(100vh - 116px);
     min-width: 100vw;
+   
 }
 .menu-text {
     font-size: 27px;
     margin: 25px 0 40px;
 }
-.about-part {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 0 50px;
-}
+
 .impressum-part {
     justify-content: flex-start;
     flex-direction: column;
@@ -507,6 +626,7 @@ img {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 0 0 20px;
+    margin-top: 106px;
 }
 .datenschutz-part {
     flex-direction: column;
@@ -522,6 +642,7 @@ img {
     gap: 10px;
     flex-direction: column;
     align-items: center;
+    margin-top: 106px;
 }
 .not-found-page {
     min-width: 100vw;
@@ -626,9 +747,14 @@ img {
 .info-uk-links a:hover {
     text-decoration: underline;
 }
-.nav-list,
-.nav-list-black {
+.nav-list {
     display: none;
+    color: white;
+}
+
+.nav-list-b {
+    display: none;
+    color: #000;
 }
 .adap-list {
     width: 180px;
@@ -694,10 +820,7 @@ img {
     .info-time p {
         font-size: 17px;
     }
-    .about-part img {
-        max-width: 462px;
-        max-height: 652px;
-    }
+    
     .over-content {
         padding: 35px;
     }
@@ -797,6 +920,55 @@ img {
 
 
 
+    .menu-text-container {
+        height: 140px;
+    }
+
+
+
+
+
+
+
+
+    /* About  */
+
+    .about-gastrowg-main img{
+        width: 286.6px;
+        height: 38.6px;
+    }
+
+    .about-gastrowg-image img{
+        width: 167px;
+        height: 192.3px;
+    }
+
+    .about-images-cont img {
+        width: 180px;
+        height: 185.5px;
+    }
+
+    .about-image-main img {
+        width: 363.9px;
+        height: 133.2px;
+    }
+
+    .about-images-cont2 img {
+        width: 146px;
+        height: 109.1px; 
+    }
+
+
+    .about-image-main {
+        margin-left: 320px;
+    }
+
+    .about-container-text {
+        width: 700px;
+    }
+
+
+
 
 }
 @media screen and (max-width: 750px) {
@@ -845,10 +1017,7 @@ img {
     .info-contacts-container {
         gap: 10px;
     }
-    .about-part img {
-        max-width: 392px;
-        max-height: 554px;
-    }
+    
     .video-main {
         position: relative;
         width: 100vw;
@@ -959,6 +1128,10 @@ img {
         width: 490px;
     }
 
+    .vegan-text-cont-sm {
+        height: 70px;
+    }
+
 
 
     .other-menu-main {
@@ -999,6 +1172,61 @@ img {
 
 
 
+    .menu-text-container {
+        height: 120px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+     /* About  */
+
+     .about-gastrowg-main img {
+        width: 229.28px;
+        height: 30.88px;
+    }
+    
+    .about-gastrowg-image img {
+        width: 133.6px;
+        height: 153.84px;
+    }
+    
+    .about-images-cont img {
+        width: 144px;
+        height: 148.4px;
+    }
+    
+    .about-image-main img {
+        width: 291.12px;
+        height: 106.56px;
+    }
+    
+    .about-images-cont2 img {
+        width: 116.8px;
+        height: 87.28px;
+        right: 20px;
+    }
+
+    .about-part {
+        min-height: 80vh;
+    }
+
+    
+
+    .about-image-main {
+        margin-left: 180px;
+    }
+
+    .about-container-text {
+        width: 480px;
+    }
 
 
 
@@ -1008,8 +1236,12 @@ img {
     .nav-container {
         display: none;
     }
-    .nav-list,
-    .nav-list-black {
+    .nav-list {
+        display: flex;
+        margin-right: 10px;
+        z-index: 100;
+    }
+    .nav-list-b {
         display: flex;
         margin-right: 10px;
         z-index: 100;
@@ -1019,12 +1251,8 @@ img {
         justify-content: space-between;
         gap: 0;
     }
-    .nav-list {
-        color: #fff;
-    }
-    .nav-list-black {
-        color: #000;
-    }
+    
+    
     .logo {
         margin-left: 10px;
     }
@@ -1058,13 +1286,7 @@ img {
     .info-contacts-container {
         gap: 5px;
     }
-    .about-part {
-        padding: 15px 0 10px;
-    }
-    .about-part img {
-        max-width: 316px;
-        max-height: 446px;
-    }
+    
     .over-content {
         padding: 25px;
     }
@@ -1203,6 +1425,74 @@ img {
         
     }
 
+
+
+    .menu-text-container {
+        height: 100px;
+    }
+
+
+    .vegan-text-text {
+        gap: 5px;
+    }
+
+    .menu-part {
+        gap: 5px;
+    }
+
+    .line-menu {
+        height: 2px;
+    }
+
+
+
+
+
+
+
+
+    /* About  */
+
+    .about-gastrowg-main img {
+        width: 183.42px;
+        height: 24.7px;
+    }
+    
+    .about-gastrowg-image img {
+        width: 107.04px;
+        height: 123.07px;
+    }
+    
+    .about-images-cont img {
+        width: 115.2px;
+        height: 118.72px;
+    }
+    
+    .about-image-main img {
+        width: 232.9px;
+        height: 85.25px;
+    }
+    
+    .about-images-cont2 img {
+        width: 93.44px;
+        height: 69.82px;
+    }
+
+    
+
+    .about-part {
+        min-height: 65vh;
+    }
+
+    
+
+    .about-image-main {
+        margin-left: 160px;
+    }
+
+    .about-container-text {
+        width: 400px;
+    }
 
 }
 @media screen and (max-width: 450px) {
@@ -1367,6 +1657,60 @@ img {
         
     }
 
+
+    .menu-text-container {
+        height: 90px;
+    }
+
+
+
+
+
+
+
+    /* About  */
+
+    .about-gastrowg-main img {
+        width: 146.74px;
+        height: 19.76px;
+    }
+    
+    .about-gastrowg-image img {
+        width: 85.63px;
+        height: 98.46px;
+    }
+    
+    .about-images-cont img {
+        width: 92.16px;
+        height: 94.98px;
+    }
+    
+    .about-image-main img {
+        width: 186.32px;
+        height: 68.20px;
+    }
+    
+    .about-images-cont2 img {
+        width: 74.75px;
+        height: 55.86px;
+        bottom: 20px;
+    }
+
+    
+
+    .about-part {
+        min-height: 55vh;
+    }
+
+    
+
+    .about-image-main {
+        margin-left: 130px;
+    }
+
+    .about-container-text {
+        width: 300px;
+    }
 
 
 

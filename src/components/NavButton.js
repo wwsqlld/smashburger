@@ -8,7 +8,7 @@ export function NavButton({text, href}) {
     const isHomePage = usePathname() === "/"
 
     return (
-       <Link className={isHomePage ? 'nav-btn' : 'nav-btn-black'} href={href}>
+       <Link className={isHomePage ? 'nav-btn nav-btn-white' : 'nav-btn nav-btn-black'} href={href}>
             <p>{text}</p>
         </Link>
     )

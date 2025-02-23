@@ -25,7 +25,7 @@ export default function MenuPart() {
                 <div className="burger-text-container">
                     <div className="burger-text-image">
                         <Image alt="thommys"
-                        src='/res-ob7.png'
+                        src='/res-ob6.png'
                         width={87}
                         priority
                         height={144}
@@ -120,8 +120,8 @@ export default function MenuPart() {
                 </div>
 
                 <div className="other-menu-main">
-
-                    <div className="other-menu-beilagen">
+                <div>
+                   <div className="other-menu-beilagen">
                         <div className="other-menu-beilagen-title">
                             <p className="other-menu-txt-p-big">Beilagen</p>
                         </div>
@@ -180,62 +180,11 @@ export default function MenuPart() {
                                 <p className="burger-menu-txt-p">4,90</p>
                             </div>
                         </div> 
-                    </div>
-
+                    </div> 
                 </div>
-            </div>
-
-
-
-            
-            {/* <div className="menu-part-column-1">
-                <div></div>
+                </div>
                 
-            </div> */}
-            {/* <div className="menu-part-column-2">
-                <Image alt="thommys"
-                    src='/res-ob7.png'
-                    width={87}
-                    priority
-                    height={144}
-                    draggable="false"
-                    quality={100}
-                    unoptimized
-                />
             </div>
-            <div className="menu-part-column-3">
-                <Image alt="thommys"
-                    src='/res-ob2.png'
-                    width={87}
-                    priority
-                    height={102}
-                    draggable="false"
-                    quality={100}
-                    unoptimized
-                />
-            </div>
-            <div className="menu-part-column-4">
-                <Image alt="thommys"
-                    src='/res-ob5.png'
-                    width={58}
-                    priority
-                    height={56}
-                    draggable="false"
-                    quality={100}
-                    unoptimized
-                />
-            </div>
-            <div className="menu-part-column-5">
-                <Image alt="thommys"
-                    src='/res-ob3.png'
-                    width={421}
-                    priority
-                    height={143}
-                    draggable="false"
-                    quality={100}
-                    unoptimized
-                />
-            </div> */}
 
         </div>
     );
