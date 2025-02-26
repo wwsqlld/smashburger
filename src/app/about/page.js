@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-gastrowg-main">
           <Image
             alt="short logo"
-            src='part2zam1.png'
+            src='part2zam1.webp'
             priority
             width={301.7}
             height={40.7}
@@ -20,7 +20,7 @@ const About = () => {
         <div className="about-gastrowg-image">
           <Image
             alt="short logo"
-            src='part2zam2.png'
+            src='part2zam2.webp'
             priority
             width={175.8}
             height={202.4}
@@ -55,7 +55,7 @@ const About = () => {
         <div className="about-image-main">
           <Image
             alt="zam zam"
-            src='part2zam4.png'
+            src='part2zam4.webp'
             priority
             width={383}
             height={140.3}
@@ -68,7 +68,7 @@ const About = () => {
       <div className="about-images-cont">
           <Image
             alt="logo"
-            src='part2zam3.png'
+            src='part2zam3.webp'
             priority
             width={189.24}
             height={195.24}
@@ -80,7 +80,7 @@ const About = () => {
       <div className="about-images-cont2">
         <Image
             alt="better together"
-            src='part2zam5.png'
+            src='part2zam5.webp'
             priority
             width={153.66}
             height={114.92}

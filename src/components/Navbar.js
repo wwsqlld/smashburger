@@ -73,8 +73,8 @@ export function Navbar() {
 
             <div className='logo' onClick={() => router.push('/')}>
                 <Image
-                  alt="logo"
-                  src='/logo4.png'
+                  alt="logo thommys"
+                  src='/logo4.webp'
                   priority
                   width={125.8}
                   height={106}

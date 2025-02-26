@@ -15,7 +15,7 @@ const Home = () => {
       <div className="over-content">
         <div className="over-cont-img">
           <Image alt="uber"
-                  src='/shortlogo2.png'
+                  src='/shortlogo2.webp'
                   width={277}
                   priority
                   height={90}

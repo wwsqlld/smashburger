@@ -8,8 +8,8 @@ export default function MenuPart() {
                     <p>Menü</p>
                 </div>
                 <div className="menu-text-image">
-                    <Image alt="thommys"
-                    src='/res-ob1.png'
+                    <Image alt="Menu Image 1"
+                    src='/res-ob1.webp'
                     width={171}
                     priority
                     height={143}
@@ -24,8 +24,8 @@ export default function MenuPart() {
             <div className="burger-container">
                 <div className="burger-text-container">
                     <div className="burger-text-image">
-                        <Image alt="thommys"
-                        src='/res-ob6.png'
+                        <Image alt="Menu Image 2"
+                        src='/res-ob6.webp'
                         width={87}
                         priority
                         height={144}
@@ -77,8 +77,8 @@ export default function MenuPart() {
                     <p className="burger-menu-txt-p">+1,50</p>
                     </div>
                     <div className="vegan-text-image">
-                        <Image alt="thommys"
-                            src='/res-ob2.png'
+                        <Image alt="Menu Image 3"
+                            src='/res-ob2.webp'
                             width={87}
                             priority
                             height={102}
@@ -96,8 +96,8 @@ export default function MenuPart() {
 
             <div className="other-menu-container">
                 <div className="other-menu-container-image-1">
-                <Image alt="thommys"
-                    src='/res-ob5.png'
+                <Image alt="Menu Image 4"
+                    src='/res-ob5.webp'
                     width={58}
                     priority
                     height={56}
@@ -108,8 +108,8 @@ export default function MenuPart() {
                 </div>
 
                 <div className="other-menu-container-image-2">
-                <Image alt="thommys"
-                    src='/res-ob3.png'
+                <Image alt="Menu Image 5"
+                    src='/res-ob3.webp'
                     width={421}
                     priority
                     height={143}

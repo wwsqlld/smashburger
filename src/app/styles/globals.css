@@ -1138,6 +1138,12 @@ img {
         width: 490px;
     }
 
+
+    .other-menu-container {
+        padding: 20px 0px 110px 0px;
+        
+    }
+
     .other-menu-container-image-1 img {
         width: 51.27px;
         height: 54.22px;
@@ -1191,6 +1197,10 @@ img {
      .about-gastrowg-main img {
         width: 229.28px;
         height: 30.88px;
+    }
+
+    .about-gastrowg-image {
+        right: 0px;
     }
     
     .about-gastrowg-image img {
@@ -1395,6 +1405,11 @@ img {
 
     .other-menu-main {
         width: 400px;
+    }
+
+    .other-menu-container {
+        padding: 20px 0px 90px 0px;
+        
     }
 
     .other-menu-container-image-1 img {
@@ -1627,6 +1642,11 @@ img {
 
     .other-menu-main {
         width: 350px;
+    }
+
+    .other-menu-container {
+        padding: 20px 0px 70px 0px;
+        
     }
 
     .other-menu-container-image-1 img {
