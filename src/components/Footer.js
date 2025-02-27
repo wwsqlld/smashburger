@@ -23,7 +23,7 @@ export function Footer() {
                 </div>
                 
                 <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.9493147519133!2d9.92862667647151!3d51.532489471819055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a4d51be4583ef7%3A0xd6fe49a601e6fecc!2sThommy&#39;s%20Smash%20Burger!5e0!3m2!1sru!2sde!4v1739101410290!5m2!1sru!2sde" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.9477227595457!2d9.927285572045422!3d51.53251867097252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a4d51be4583ef7%3A0xd6fe49a601e6fecc!2sThommy&#39;s%20Smash%20Burger!5e0!3m2!1sde!2sde!4v1740666827807!5m2!1sde!2sde" 
                 
                 className="maps-integration"
                 allowFullScreen="" 
